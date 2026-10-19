@@ -1,0 +1,84 @@
+
+<html>
+
+<head>
+    <title>Latihan Pembuatan Form</title>
+</head>
+
+<body>
+
+<!-- NIM, NAMA, JENIS KELAMIN, AGAMA, STATUS, JURUSAN, HOBY, KETERANGAN -->
+
+<form>
+
+    <h1>Form Pendaftaran</h1>
+    <hr>
+
+    <pre>
+<p>
+  <label for="nim">NIM:</label>
+  <input type="text" size="11" name="nim">
+</p>
+
+<p>
+  <label for="nama">NAMA:</label>
+  <input type="text" size="25" name="nama">
+</p>
+
+<p>
+  <label>JENIS KELAMIN:</label>
+  <input type="radio" name="jkel" value="Pria"> Pria
+  <input type="radio" name="jkel" value="Wanita"> Wanita
+</p>
+
+<p>
+  <label>AGAMA:</label>
+  <select name="agama">
+    <option value="Islam">Islam</option>
+    <option value="Katholik">Katholik</option>
+    <option value="Kristen">Kristen</option>
+    <option value="Hindu">Hindu</option>
+    <option value="Budha">Budha</option>
+  </select>
+</p>
+
+<p>
+  <label>STATUS:</label>
+  <input type="radio" name="status" value="kawin"> Kawin
+  <input type="radio" name="status" value="belumkawin"> Belum Kawin
+</p>
+
+<p>
+  <label>JURUSAN:</label>
+  <select name="jurusan" size="1">
+    <option value="Teknik Informatika">Teknik Informatika</option>
+    <option value="Manajemen Informatika">Manajemen Informatika</option>
+    <option value="Teknik Komputer">Teknik Komputer</option>
+    <option value="Teknik Industri">Teknik Industri</option>
+  </select>
+</p>
+
+<p>
+  <label>HOBY:</label>
+  <input type="checkbox" name="hoby" value="Futsal"> Futsal
+  <input type="checkbox" name="hoby" value="Renang"> Renang
+  <input type="checkbox" name="hoby" value="Traveling"> Traveling
+</p>
+
+<p>
+  <label>KETERANGAN:</label>
+  <textarea name="ket" rows="3" cols="30"></textarea>
+</p>
+
+    </pre>
+
+    <br>
+
+    <input type="submit" value="Kirim">
+    <input type="reset" value="Ulang">
+
+</form>
+
+</body>
+
+</html>

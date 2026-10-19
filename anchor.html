@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Trik utama: Membuat efek scroll menjadi halus */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Memberikan jarak kosong yang tinggi di bawah setiap bagian */
+        section {
+            margin-bottom: 800px; 
+            padding: 20px;
+            border: 2px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#navigasi">Lompat ke Navigasi</a> <br>
+        <a href="#makanan">Lompat ke Makanan</a>
+    </header>
+    <main>
+        <!-- Bagian Pertama -->
+        <section id="navigasi" style="background-color: #ffe6e6;">
+            <p>pilih isi yang ingin ditampilkan</p>
+        </section>
+        
+        <!-- Bagian Kedua -->
+        <section id="makanan" style="background-color: #e6f7ff;">
+            <p>ini makanan</p>
+        </section>
+    </main>
+</body>
+</html>

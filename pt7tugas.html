@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Form</title>
+</head>
+
+<body background="media/beige.jpg">
+    <form action="" align="justify">
+        <h1 align="center">FREE REGISTRATION</h1>
+        <hr>
+        NAMA :
+        <input type="text" name="nama" size="30">
+        <br><br>
+        PASSWORD :
+        <input type="password" name="password" size="20">
+        <br><br>
+        TGL LAHIR :
+        <input type="date" name="tgl_lahir">
+        <br><br>
+        ALAMAT :
+        <textarea name="alamat" rows="3" cols="30"></textarea>
+        <br><br>
+        KOTA :
+        <input type="text" name="kota" size="20">
+        <br><br>
+        PEKERJAAN :
+        <select name="pekerjaan">
+            <option value="Mahasiswa">Mahasiswa</option>
+            <option value="Pelajar">Pelajar</option>
+            <option value="Guru">Guru</option>
+            <option value="Programmer">Programmer</option>
+            <option value="Wiraswasta">Wiraswasta</option>
+            <option value="Lainnya">Lainnya</option>
+        </select>
+        <br><br>
+        JENIS KELAMIN :
+        <input type="radio" name="jenis_kelamin" value="Laki-laki">
+        Laki-laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan">
+        Perempuan
+        <br><br>
+        HOBI :
+        <input type="checkbox" name="hobi" value="Membaca">
+        Membaca
+        <input type="checkbox" name="hobi" value="Gaming">
+        Gaming
+        <input type="checkbox" name="hobi" value="Olahraga">
+        Olahraga
+        <input type="checkbox" name="hobi" value="Musik">
+        Musik
+        <br><br>
+        UMUR :
+        <input type="number" name="umur" min="6" max="100">
+        <br><br>
+        EMAIL :
+        <input type="email" name="email" size="30">
+        <br><br>
+        NO. TELEPON :
+        <input type="tel" name="telepon" size="15">
+        <br><br>
+        JAM SAAT INI :
+        <input type="time" name="jam_saat_ini">
+        <br><br>
+        TINGKAT KEPUASAN :
+        <input type="range" name="kepuasan" min="0" max="100">
+        <br><br>
+        FOTO :
+        <input type="file" name="foto">
+        <br><br>
+        <input type="submit" value="Kirim">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
