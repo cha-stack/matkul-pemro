@@ -1,0 +1,2 @@
+Taruh file audio dan video kamu di folder ini dengan nama musik.mp3 dan video.mp4.
+Tanpa file itu, player tampil tapi tidak bisa diputar.

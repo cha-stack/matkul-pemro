@@ -1,0 +1,29 @@
+<html> 
+<head> 
+<title>STYLE SHEET</title> 
+<style> 
+p.htebal {font-family : tahoma; color: blue; font-size: 16pt; font-weight : bold; text- 
+indent : 40pt} 
+p.hmiring {font-family : tahoma; color: red; font-size: 18pt; font-weight : italic; text- 
+indent : 55pt} 
+</style> 
+</head><body> 
+<p class="htebal">Tampilan teks dalam paragraph tebal dengan identasi 30 pt. 
+Contoh Elemen lain menggunakan style sheet : 
+Contoh 1: 
+P 
+{ 
+} 
+Text-align : right; 
+Color : cyan; 
+Font-family : tahoma; 
+Contoh 2: 
+H1, h2, h3, h4,h5, h6 
+{ 
+Color : yellow; 
+} 
+Contoh style sheet external: 
+Body {background-color : magenta} 
+H1 { font-size: 20 pt} 
+H2 {color : blue} 
+P (margin-right : 20 px}

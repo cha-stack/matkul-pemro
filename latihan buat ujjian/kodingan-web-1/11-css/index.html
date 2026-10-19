@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>CSS</title>
+  <!-- Cara 1: LINKING (file css terpisah) -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Cara 2: EMBEDDING (style di dalam head) -->
+  <style>
+    h2 { color: green; font-family: Verdana; }
+    p  { font-size: 14pt; }
+  </style>
+</head>
+<body>
+
+<!-- Cara 3: INLINE (di atribut style) -->
+<h1 style="color: blue; text-align: center;">Judul (inline)</h1>
+
+<h2>Paragraf (embedding)</h2>
+<p>Paragraf ini diatur lewat blok style di dalam head.</p>
+
+<h3>Subjudul (linking)</h3>
+<p class="luar">Paragraf ini diatur dari file style.css.</p>
+
+<p>Contoh link: <a href="https://www.google.com">Google</a></p>
+
+</body>
+</html>

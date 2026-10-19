@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koleksi Tanaman — Ruang Hijau</title><link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar"><a class="logo" href="index.html"><span>🌿</span> Ruang Hijau</a>
+<nav><a href="index.html">Beranda</a><a class="active" href="koleksi.html">Koleksi</a><a href="filosofi.html">Filosofi</a><a href="tentang.html">Tentang</a><a href="kontak.html">Kontak</a></nav>
+<button class="cart-btn" onclick="openCart()">🛒 <span id="cartCount">0</span></button></header>
+
+<main>
+<section class="page-head"><p class="eyebrow">KOLEKSI RUANG HIJAU</p><h1>Tanaman untuk setiap cerita.</h1><p>Pilih tanaman yang paling sesuai dengan ruang dan makna yang ingin kamu hadirkan.</p></section>
+<section class="catalog">
+  <div class="toolbar">
+    <input id="searchInput" type="search" placeholder="🔎 Cari nama tanaman..." oninput="filterProducts()">
+    <select id="categoryFilter" onchange="filterProducts()"><option value="all">Semua kategori</option><option value="hias">Tanaman Hias</option><option value="sukulen">Sukulen</option><option value="aromatik">Aromatik</option></select>
+  </div>
+  <div class="product-grid" id="productGrid"></div>
+</section>
+</main>
+
+<footer><div><a class="logo" href="index.html"><span>🌿</span> Ruang Hijau</a><p>Tanaman dengan cerita, untuk ruang yang lebih bermakna.</p></div><div class="footer-links"><a href="koleksi.html">Koleksi</a><a href="filosofi.html">Filosofi</a><a href="kontak.html">Kontak</a></div><p class="copyright">© 2026 Ruang Hijau</p></footer>
+<div id="cartModal" class="modal"><div class="modal-box"><button class="close" onclick="closeCart()">×</button><h2>Keranjangmu 🛒</h2><div id="cartItems"></div><div class="cart-total"><span>Total</span><b id="cartTotal">Rp0</b></div><button class="btn primary full" onclick="checkout()">Pesan Sekarang</button></div></div>
+<div id="toast" class="toast"></div>
+<script src="js/script.js"></script><script>renderProducts(); updateCartCount();</script>
+</body></html>

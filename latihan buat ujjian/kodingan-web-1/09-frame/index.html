@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Frame</title>
+</head>
+<!--
+  CATATAN PENTING: frameset sudah DIHAPUS dari HTML5.
+  Browser modern (Chrome, Firefox, Edge) akan menampilkan halaman KOSONG.
+  File ini dibuat untuk dipelajari strukturnya sesuai modul.
+  Versi yang jalan di browser modern: lihat folder 10-iframe.
+-->
+<frameset rows="20%,*,10%" bgcolor="lightblue">
+  <frame src="header.html" name="atas">
+  <frameset cols="25%,*">
+    <frame src="menu.html" name="menu">
+    <frame src="isi1.html" name="isi">
+  </frameset>
+  <frame src="footer.html" name="bawah">
+</frameset>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Class dalam CSS</title>
+  <style>
+    /* .nama = bisa dipakai banyak elemen, semua tag */
+    .merah { color: red; }
+    .biru  { color: blue; }
+
+    /* tag.nama = hanya berlaku untuk tag tertentu */
+    p.sorot { background-color: yellow; padding: 8px; }
+
+    /* #nama = ID, unik untuk satu elemen */
+    #spesial { color: white; background-color: black; padding: 8px; }
+  </style>
+</head>
+<body>
+
+<h2>Tanpa class</h2>
+<p>Paragraf biasa.</p>
+
+<h2>Dengan class</h2>
+<p class="merah">Paragraf kelas merah.</p>
+<p class="biru">Paragraf kelas biru.</p>
+<p class="sorot">Paragraf kelas sorot.</p>
+<h3 class="merah">Heading juga bisa kelas merah.</h3>
+
+<h2>Gabungan dua class</h2>
+<p class="merah sorot">Paragraf ini punya dua class sekaligus.</p>
+
+<h2>ID (dipakai untuk satu elemen saja)</h2>
+<p id="spesial">Paragraf dengan id spesial.</p>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+</head>
+<body>
+
+<h2>Form Pendaftaran</h2>
+<!-- action: tujuan data dikirim ("#" = halaman ini saja). method: get / post -->
+<form action="#" method="get">
+
+  <label for="nama">Nama :</label>
+  <input type="text" name="nama" size="25" maxlength="30"><br><br>
+
+  <h1 font face="Arial" color="blue">Password</h1>
+  <input type="password" name="pass"><br><br>
+
+  Jenis Kelamin :
+  <input type="radio" name="jkel" value="Pria" checked> Pria
+  <input type="radio" name="jkel" value="Wanita"> Wanita<br><br>
+
+  Hobi :
+  <input type="checkbox" name="hobi" value="Membaca"> Membaca
+  <input type="checkbox" name="hobi" value="Olahraga"> Olahraga
+  <input type="checkbox" name="hobi" value="Musik"> Musik<br><br>
+
+  Jurusan :
+  <select name="jurusan">
+    <option value="TI">Teknik Informatika</option>
+    <option value="SI" selected>Sistem Informasi</option>
+    <option value="TE">Teknik Elektro</option>
+  </select><br><br>
+
+  Alamat :<br>
+  <textarea name="alamat" rows="4" cols="35"></textarea><br><br>
+
+  <input type="hidden" name="id" value="123">
+  <input type="submit" value="Kirim">
+  <input type="reset" value="Ulang">
+  <input type="button" value="Tombol biasa" onclick="alert('Halo!')">
+</form>
+
+</body>
+</html>

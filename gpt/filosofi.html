@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Filosofi Tanaman — Ruang Hijau</title><link rel="stylesheet" href="css/style.css"></head>
+<body>
+<header class="navbar"><a class="logo" href="index.html"><span>🌿</span> Ruang Hijau</a><nav><a href="index.html">Beranda</a><a href="koleksi.html">Koleksi</a><a class="active" href="filosofi.html">Filosofi</a><a href="tentang.html">Tentang</a><a href="kontak.html">Kontak</a></nav><button class="cart-btn" onclick="openCart()">🛒 <span id="cartCount">0</span></button></header>
+<main>
+<section class="page-head"><p class="eyebrow">CERITA DI BALIK DAUN</p><h1>Tanaman punya bahasanya sendiri.</h1><p>Makna berikut adalah interpretasi simbolis yang berkembang dalam berbagai budaya dan penggunaan populer.</p></section>
+<section class="meaning-grid">
+  <article class="meaning-card"><div class="meaning-icon">🌿</div><h2>Monstera</h2><span>Pertumbuhan & perkembangan</span><p>Daunnya yang terus membuka sering diasosiasikan dengan proses bertumbuh, keberanian menghadapi perubahan, dan berkembang menjadi versi diri yang baru.</p></article>
+  <article class="meaning-card"><div class="meaning-icon">💜</div><h2>Lavender</h2><span>Ketenangan & kedamaian</span><p>Aromanya yang khas membuat lavender sering digunakan sebagai simbol suasana tenang, relaksasi, dan ruang yang nyaman.</p></article>
+  <article class="meaning-card"><div class="meaning-icon">🌱</div><h2>Sansevieria</h2><span>Ketahanan & kekuatan</span><p>Kemampuannya beradaptasi dengan berbagai kondisi membuatnya kerap dimaknai sebagai simbol ketahanan dan kemampuan untuk terus bertahan.</p></article>
+  <article class="meaning-card"><div class="meaning-icon">🤍</div><h2>Peace Lily</h2><span>Kedamaian & keharmonisan</span><p>Bunga putihnya sering diasosiasikan dengan kedamaian, kesederhanaan, dan harapan akan suasana yang harmonis.</p></article>
+  <article class="meaning-card"><div class="meaning-icon">🌵</div><h2>Kaktus</h2><span>Keteguhan & daya tahan</span><p>Kaktus mampu menyimpan air dan bertahan dalam lingkungan kering. Karena itu, ia sering dipandang sebagai lambang keteguhan.</p></article>
+  <article class="meaning-card"><div class="meaning-icon">🍀</div><h2>Calathea</h2><span>Awal baru & keindahan</span><p>Pola daunnya yang unik dapat menjadi pengingat bahwa setiap hari memberi kesempatan untuk memulai dan tumbuh kembali.</p></article>
+</section>
+</main>
+<footer><div><a class="logo" href="index.html"><span>🌿</span> Ruang Hijau</a><p>Tanaman dengan cerita, untuk ruang yang lebih bermakna.</p></div><div class="footer-links"><a href="koleksi.html">Koleksi</a><a href="filosofi.html">Filosofi</a><a href="kontak.html">Kontak</a></div><p class="copyright">© 2026 Ruang Hijau</p></footer>
+<div id="cartModal" class="modal"><div class="modal-box"><button class="close" onclick="closeCart()">×</button><h2>Keranjangmu 🛒</h2><div id="cartItems"></div><div class="cart-total"><span>Total</span><b id="cartTotal">Rp0</b></div><button class="btn primary full" onclick="checkout()">Pesan Sekarang</button></div></div><div id="toast" class="toast"></div><script src="js/script.js"></script><script>updateCartCount();</script>
+</body></html>
